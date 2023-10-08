@@ -16,12 +16,12 @@
 # orbits = [(1, 3), (2.5, 10), (7, 2), (6, 6), (4, 3)]
 # print(*find_farthest_orbits(orbits))
 # Задача 51
-def same_by(characteristics, objects):
-    return len(set(map(characteristics, objects))) in (0, 1)
+# def same_by(characteristics, objects):
+#     return len(set(map(characteristics, objects))) in (0, 1)
 
 
-values = [0, 2, 10, 6]
-if same_by(lambda x: x % 2, values):
-    print("same")
-else:
-    print("different")
+# values = [0, 2, 10, 6]
+# if same_by(lambda x: x % 2, values):
+#     print("same")
+# else:
+#     print("different")
